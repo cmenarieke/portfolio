@@ -13,11 +13,15 @@ p {
   font-family: var(--primary-font-family);
   color: var(--primary-font-color);
 }
+
+.text-center {
+  text-align: center;
+}
 .intro-body {
   margin: 96px 80px;
 }
 
-.about-developer {
+.intro {
   line-height: 24px;
 }
 
@@ -30,4 +34,17 @@ p {
   color: var(--primary-font-color);
   font-size: 24px;
   margin: 15px 8px;
+}
+
+.about-developer {
+  background-color: #f1f4f6;
+  padding: 96px 80px;
+}
+
+.heading {
+  font-family: var(--important-heading-family);
+}
+
+.skills-container {
+  padding: 96px 80px;
 }
