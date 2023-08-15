@@ -1,0 +1,33 @@
+:root {
+  --primary-font-family: "Inter", sans-serif;
+  --primary-font-color: #4b5563;
+  --important-heading-family: "Covered By Your Grace", cursive;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: var(--important-heading-family);
+}
+
+p {
+  font-family: var(--primary-font-family);
+  color: var(--primary-font-color);
+}
+.intro-body {
+  margin: 96px 80px;
+}
+
+.about-developer {
+  line-height: 24px;
+}
+
+.location-and-availability {
+  margin-top: 36px;
+  line-height: 32px;
+}
+
+.social-connect {
+  color: var(--primary-font-color);
+  font-size: 24px;
+  margin: 15px 8px;
+}
