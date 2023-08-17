@@ -2,6 +2,7 @@
   --primary-font-family: "Inter", sans-serif;
   --primary-font-color: #4b5563;
   --important-heading-family: "Covered By Your Grace", cursive;
+  --background-color: #f6f0e9;
 }
 
 h1 {
@@ -22,6 +23,15 @@ li {
 .primary-font {
   font-family: var(--primary-font-family);
 }
+
+.heading {
+  font-family: var(--important-heading-family);
+}
+
+.button-color {
+  background-color: #ebe5d8;
+}
+
 .intro-body {
   margin: 96px 80px;
 }
@@ -47,12 +57,12 @@ li {
 }
 
 .contrast-background {
-  background-color: #f1f4f6;
+  background-color: var(--background-color);
   padding: 96px 80px;
 }
 
-.heading {
-  font-family: var(--important-heading-family);
+.background-color {
+  background-color: var(--background-color);
 }
 
 .skills-container {
